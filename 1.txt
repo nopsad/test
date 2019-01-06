@@ -1,0 +1,69 @@
+Set-Cookie: pass=1; path=/
+Set-Cookie: sky=1; path=/
+Set-Cookie: qianshou=1; path=/
+Set-Cookie: hongtou=1; path=/
+Set-Cookie: zhiban=1; path=/
+Set-Cookie: qx2=665%2C+666%2C+667%2C+668%2C+669%2C+670%2C+671%2C+674%2C+673%2C+675%2C+676%2C+677%2C+678%2C+679%2C+680%2C+681%2C+682%2C+683%2C+684%2C+685%2C+686%2C+687%2C+688%2C+689%2C+690%2C+691%2C+692%2C+694%2C+695%2C+696%2C+697%2C+698%2C+699%2C+700%2C+701; path=/
+Set-Cookie: qx=656%2C+657%2C+658%2C+672%2C+659%2C+660%2C+661%2C+662%2C+663%2C+664; path=/
+Set-Cookie: dele=1; path=/
+Set-Cookie: id=50; expires=Sun, 06-Jan-2019 05:37:32 GMT; path=/
+Set-Cookie: vip=649; path=/
+Set-Cookie: title=%B9%DC%C0%ED%D4%B1; path=/
+Set-Cookie: username=admin; expires=Sun, 06-Jan-2019 05:37:32 GMT; path=/
+X-Powered-By: ASP.NET
+Date: Sun, 06 Jan 2019 04:37:33 GMT
+Connection: close
+
+
+
+<script language="JavaScript">
+function Display(ID)
+{
+ if( ID.style.display == 'none' )
+{
+ID.style.display = '' ;
+}
+else	
+{
+ID.style.display = 'none' ;
+}
+}
+</script>
+<script>
+function selectAll(obj)
+{
+for(var i = 0;i<obj.elements.length;i++)
+if(obj.elements[i].type == "checkbox")
+obj.elements[i].checked = true;
+}
+function selectOther(obj)
+{
+for(var i = 0;i<obj.elements.length;i++)
+if(obj.elements[i].type == "checkbox" )
+{
+if(!obj.elements[i].checked)
+obj.elements[i].checked = true;
+else
+obj.elements[i].checked = false;
+}
+}
+</script>
+<script language="javascript">
+function changecolor(obj)
+{
+   e = event.srcElement
+   if(e.checked==true)
+   {
+     e = e.parentElement
+     e = e.parentElement
+     e.style.background = "#C1D2EE"
+    }
+    else
+    {
+      e = e.parentElement
+      e = e.parentElement
+      e.style.background = "#ffffff"
+     }
+} 
+</script>
+<script language=javascript>alert('登录成功');this.location.href='manage.asp';</script>
